@@ -7,15 +7,30 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
-    background:lightgray;
+    background:LightCyan;
+    border-radius:5px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:2px solid white;
+}
+
+.assignment img:hover {
+    border:2px solid powderblue;
 }
 
 h1 {
     color: darkblue;
     text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color:steelblue;
+} 
+
+a:hover {
+    color:powderblue;
 }
